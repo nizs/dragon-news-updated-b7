@@ -1,0 +1,24 @@
+@media only screen and (max-width: 768px) {
+    .responsive-form{
+        width: 75% !important;
+    }
+  }
+@media only screen and (max-width: 425px) {
+    .responsive-form{
+        width: 100% !important;
+        padding: 1rem !important;
+
+    }
+  }
+@media only screen and (max-width: 375px) {
+    .responsive-form{
+        width: 100% !important;
+        padding: 1rem !important;
+    }
+  }
+@media only screen and (max-width: 320px) {
+    .responsive-form{
+        width: 100% !important;
+        padding: 1rem !important;
+    }
+  }
