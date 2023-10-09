@@ -31,12 +31,12 @@ const DragonNavigation = () => {
                                     roundedCircle
                                     src={user?.photoURL}
                                     style={{ height: '40px' }}
-                                    className='me-lg-3 fs-2'
+                                    className='me-lg-3 fs-2 acc-img'
                                 ></Image>
                                 <Button onClick={handleLogoutUser} className='rounded-0 px-4' variant="dark">Logout</Button>
                             </> :
                             <>
-                                <FaUserCircle className='me-lg-3 fs-2 login-action-profile' />
+                                <FaUserCircle className='me-lg-3 fs-2 login-action-profile acc-img' />
                                 <Link to='/login'>
                                     <Button className='rounded-0 px-4 me-lg-3' variant="dark">Login</Button>
                                 </Link>

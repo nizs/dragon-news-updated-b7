@@ -26,6 +26,9 @@
     .login-action-profile{
         margin-bottom: 10px;
     }
+    .acc-img{
+        margin-bottom: 10px;
+    }
   }
 @media only screen and (max-width: 375px) {
     .dragon-nav-li {
@@ -37,6 +40,9 @@
     .login-action{
         margin-top: 20px;
     }
+    .acc-img{
+        margin-bottom: 10px;
+    }
   }
 @media only screen and (max-width: 320px) {
     .dragon-nav-li {
@@ -47,5 +53,8 @@
     }
     .login-action{
         margin-top: 20px;
+    }
+    .acc-img{
+        margin-bottom: 10px;
     }
   }
